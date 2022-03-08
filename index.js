@@ -81,7 +81,7 @@ app.route('/times/:id/membros').post((req, res) => {
         if (time.id == id) {
             return {                
                 ...time,
-                membros: (time.membros !== undefined) ? time.membros.push(novoMembro) : [novoMembro],
+                membros: [...membros],
             }
         }
         return time
