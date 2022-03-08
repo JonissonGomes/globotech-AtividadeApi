@@ -11,9 +11,9 @@ Content-Type: application/json
 GET http://localhost:3000/times HTTP/1.1
 Content-Type: application/json
 
-##
+###
 
-GET http://localhost:3000/times/2 HTTP/1.1
+GET http://localhost:3000/times/1 HTTP/1.1
 Content-Type: application/json
 
 ### 
